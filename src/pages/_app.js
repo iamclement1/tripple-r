@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '@/components/layouts'
+import { BacktoTop, Footer, Navbar } from '@/components/layouts'
 import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }) {
     <div className='bg-white'>
       <Navbar />
       <Component {...pageProps} />
+      <BacktoTop />
       <Footer />
     </div>
   )
