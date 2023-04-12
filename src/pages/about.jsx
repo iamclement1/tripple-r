@@ -4,7 +4,7 @@ import img1 from '../assets/images/image55.png'
 import img2 from '../assets/images/image68.png'
 import img3 from '../assets/images/image78.png'
 import { Fade } from 'react-awesome-reveal'
-import { Team } from '@/components/about'
+import { Client, Products, Team } from '@/components/layouts'
 
 const About = () => {
     return (
@@ -50,7 +50,7 @@ const About = () => {
                                 height={500}
                                 className='mb-4 md:mb-0 lg:mb-0'
                             />
-                            
+
                         </div>
                     </Fade>
                 </div>
@@ -58,6 +58,14 @@ const About = () => {
 
             <main className='my-14'>
                 <Team />
+            </main>
+
+            <main className='my-14'>
+                <Client />
+            </main>
+
+            <main className='my-14'>
+                <Products />
             </main>
         </section>
     )
