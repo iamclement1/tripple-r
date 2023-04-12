@@ -50,6 +50,7 @@ const About = () => {
                                 height={500}
                                 className='mb-4 md:mb-0 lg:mb-0'
                             />
+                            
                         </div>
                     </Fade>
                 </div>
