@@ -3,10 +3,10 @@ import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <div className='bg-white'>
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </div>
   )
 }
