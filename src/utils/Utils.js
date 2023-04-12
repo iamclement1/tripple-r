@@ -14,7 +14,18 @@ import img13 from '../assets/images/image75.svg'
 import img14 from '../assets/images/image77.svg'
 import img15 from '../assets/images/image72.svg'
 import img16 from '../assets/images/image74.svg'
-
+import img17 from '../assets/images/image94.png'
+import img18 from '../assets/images/image83.png'
+import img19 from '../assets/images/image93.png'
+import img20 from '../assets/images/image68.png'
+import img21 from '../assets/images/image46.png'
+import img22 from '../assets/images/image89.png'
+import img23 from '../assets/images/image90.png'
+import img24 from '../assets/images/image91.png'
+import img25 from '../assets/images/image92.png'
+import img26 from '../assets/images/image100.png'
+import img27 from '../assets/images/image95.png'
+import img28 from '../assets/images/image98.png'
 
 
 
@@ -105,5 +116,75 @@ export const products = [
     },
     {
         image: img16
+    }
+]
+
+export const services = [
+    {
+        image: img17,
+        name: "Hair Styling"
+    },
+    {
+        image: img18,
+        name: "Hair Stretching"
+    },
+    {
+        image: img19,
+        name: "Facials"
+    },
+    {
+        image: img20,
+        name: "Hair Carving"
+    },
+    {
+        image: img21,
+        name: "Nail Painting"
+    },
+    {
+        image: img22,
+        name: "Washing and Setting"
+    },
+    {
+        image: img23,
+        name: "Lash Fixing"
+    },
+    {
+        image: img24,
+        name: "Hair Treatment"
+    },
+    {
+        image: img25,
+        name: "Hair Relaxing"
+    },
+    {
+        image: img26,
+        name: "Braiding"
+    },
+    {
+        image: img27,
+        name: "Hair Plaiting"
+    },
+    {
+        image: img28,
+        name: "Gele Tying"
+    }
+]
+
+export const MobileServices = [
+    {
+        image: img17,
+        name: "Hair Styling"
+    },
+    {
+        image: img18,
+        name: "Hair Stretching"
+    },
+    {
+        image: img19,
+        name: "Facials"
+    },
+    {
+        image: img20,
+        name: "Hair Carving"
     }
 ]

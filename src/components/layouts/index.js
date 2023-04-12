@@ -4,3 +4,4 @@ export {default as BacktoTop } from './BacktoTop'
 export { default as Team } from './Team';
 export {default as Client} from './Client';
 export {default as Products} from './Products'
+export { default as OurServices} from './OurServices'
