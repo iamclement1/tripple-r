@@ -26,6 +26,9 @@ import img25 from '../assets/images/image92.png'
 import img26 from '../assets/images/image100.png'
 import img27 from '../assets/images/image95.png'
 import img28 from '../assets/images/image98.png'
+import img29 from '../assets/images/image45.png'
+import img30 from '../assets/images/image47.png'
+
 
 
 
@@ -186,5 +189,23 @@ export const MobileServices = [
     {
         image: img20,
         name: "Hair Carving"
+    }
+]
+
+export const personalized = [
+    {
+        image: img29,
+        description: "Get luxury hair care treatment, hair coloring, chemical treatments, hair extensions, and hair styling",
+        btn: "Book a session",
+    },
+    {
+        image: img21,
+        description: "Maintain healthy, strong, and beautiful nails with treatments to help stop your nails from peeling & breaking",
+        btn: "Book a session"
+    },
+    {
+        image: img30,
+        description: "Nourish and hydrate your complexion with a Dermalogica Intensive Moisturising Facials",
+        btn: "Book a session"
     }
 ]
