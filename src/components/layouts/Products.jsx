@@ -34,115 +34,115 @@ const Products = () => {
                     slidesPerView={7}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}>
-                    <SwiperSlide>
+                    <SwiperSlide className=''>
                         <Image src={img1}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img2}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img3}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img4}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img5}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img6}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img7}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img1}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img2}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img3}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img4}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img5}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img6}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <Image src={img7}
                             alt='product-logo'
-                            width={100}
-                            height={100}
+                            width={500}
+                            height={500}
                         />
                     </SwiperSlide>
 
