@@ -28,6 +28,7 @@ import img27 from '../assets/images/image95.png'
 import img28 from '../assets/images/image98.png'
 import img29 from '../assets/images/image45.png'
 import img30 from '../assets/images/image47.png'
+import img31 from '../assets/images/image681.png'
 
 
 
@@ -136,7 +137,7 @@ export const services = [
         name: "Facials"
     },
     {
-        image: img20,
+        image: img31,
         name: "Hair Carving"
     },
     {
@@ -207,5 +208,44 @@ export const personalized = [
         image: img30,
         description: "Nourish and hydrate your complexion with a Dermalogica Intensive Moisturising Facials",
         btn: "Book a session"
+    }
+]
+
+export const prices = [
+    {
+        name: "Manicure",
+        amount: "₦ 1,500"
+    },
+    {
+        name: "Pedicure",
+        amount: "₦ 2,500"
+    },
+    {
+        name: "Ghana Weaving",
+        amount: "₦ 4,000"
+    },
+    {
+        name: "Facials",
+        amount: "₦ 4,000"
+    },
+    {
+        name: "Steaming",
+        amount: "₦, 1,500"
+    },
+    {
+        name: "Eye Lashes",
+        amount: "₦ 800"
+    },
+    {
+        name: "Gele Tying",
+        amount: "₦ 1,000"
+    },
+    {
+        name: "Retouching & Streching",
+        amount: "₦ 2,000"
+    },
+    {
+        name: "Tiny Weaving",
+        amount: "₦ 3,000"
     }
 ]
