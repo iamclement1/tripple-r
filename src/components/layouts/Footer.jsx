@@ -3,11 +3,14 @@ import React from 'react'
 import { GoLocation } from 'react-icons/go';
 import { BsTelephoneFill } from 'react-icons/bs';
 import { MdOutlineMailOutline } from 'react-icons/md'
+import { FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
+
 
 const Footer = () => {
     return (
-        <section className='w-full bg-black'>
-            <div className=" lg:flex lg:text-start items-center lg:space-x-38 lg:my-14 p-8 md:p-2 lg:p-2
+        <footer className='w-full bg-black'>
+            <div className=" lg:flex lg:text-start items-center lg:space-x-38 lg:my-4 p-8 md:p-2 lg:p-2
             md:mx-8 lg:mx-24 md:py-8 lg:py-12 text-white">
 
                 {/* beginning subscribe to our newletter */}
@@ -37,81 +40,85 @@ const Footer = () => {
                 {/* end subscribe to our newletter */}
 
                 <section className='lg:flex md:flex lg:space-x-8 md:space-x-4 my-6 lg:my-0 '>
-                    {/* beginning of quick links */}
-                    <div>
-                        <h1 className='font-semibold text-xl'>
-                            Quick Links
-                        </h1>
-                        <ul className='text-sm my-3 space-y-2'>
-                            <li className="hover:underline hover:duration-300 
-                                hover:ease-in-out hover:decoration-[#E27D60]
-                                hover:underline-offset-8">
-                                <Link href='/services'>
-                                    Our Services
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
-                                hover:ease-in-out hover:decoration-[#E27D60]
-                                hover:underline-offset-8">
-                                <Link href='/prices'>
-                                    Prices
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
-                                hover:ease-in-out hover:decoration-[#E27D60]
-                                hover:underline-offset-8">
-                                <Link href='/gallery'>
-                                    Gallery
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
-                                hover:ease-in-out hover:decoration-[#E27D60]
-                                hover:underline-offset-8">
-                                <Link href='/about'>
-                                    About Us
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    {/* end of the quick links */}
 
-                    {/* begging of useful link */}
-                    <div>
-                        <h1 className='font-semibold text-xl'>
-                            Useful
-                        </h1>
-                        <ul className='text-sm my-3 space-y-2'>
-                            <li className="hover:underline hover:duration-300 
+                    <div className='flex space-x-12'>
+
+                        {/* beginning of quick links */}
+                        <div>
+                            <h1 className='font-semibold text-xl'>
+                                Quick Links
+                            </h1>
+                            <ul className='text-sm my-3 space-y-2'>
+                                <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
-                                <Link href='/'>
-                                    Privacy Policy
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
+                                    <Link href='/services'>
+                                        Our Services
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
-                                <Link href='/'>
-                                    Legal
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
+                                    <Link href='/prices'>
+                                        Prices
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
-                                <Link href='/'>
-                                    FAQs
-                                </Link>
-                            </li>
-                            <li className="hover:underline hover:duration-300 
+                                    <Link href='/gallery'>
+                                        Gallery
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
-                                <Link href='/'>
-                                    Blogs
-                                </Link>
-                            </li>
-                        </ul>
+                                    <Link href='/about'>
+                                        About Us
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                        {/* end of the quick links */}
+
+                        {/* begging of useful link */}
+                        <div>
+                            <h1 className='font-semibold text-xl'>
+                                Useful
+                            </h1>
+                            <ul className='text-sm my-3 space-y-2'>
+                                <li className="hover:underline hover:duration-300 
+                                hover:ease-in-out hover:decoration-[#E27D60]
+                                hover:underline-offset-8">
+                                    <Link href='/'>
+                                        Privacy Policy
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
+                                hover:ease-in-out hover:decoration-[#E27D60]
+                                hover:underline-offset-8">
+                                    <Link href='/'>
+                                        Legal
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
+                                hover:ease-in-out hover:decoration-[#E27D60]
+                                hover:underline-offset-8">
+                                    <Link href='/'>
+                                        FAQs
+                                    </Link>
+                                </li>
+                                <li className="hover:underline hover:duration-300 
+                                hover:ease-in-out hover:decoration-[#E27D60]
+                                hover:underline-offset-8">
+                                    <Link href='/'>
+                                        Blogs
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                        {/* end of useful link */}
                     </div>
-                    {/* end of useful link */}
 
                     <div>
                         <h1 className='font-semibold text-xl mb-3 items-center'>
@@ -138,7 +145,20 @@ const Footer = () => {
                 </section>
 
             </div>
-        </section>
+
+            <div className='border border-b-2 border-white mb-8 '></div>
+            <div className='pb-8 md:flex lg:flex justify-between mx-8 lg:mx-36 '>
+                <div></div>
+                <p className='text-white '>
+                    Copyright - Tripple R unisex salon &copy; 2023
+                </p>
+                <div className='text-white flex space-x-5 text-xl mt-4 lg:mt-0'>
+                    <AiFillInstagram className='cursor-pointer' />
+                    <FaTwitterSquare className='cursor-pointer' />
+                    <FaFacebookSquare className='cursor-pointer' />
+                </div>
+            </div>
+        </footer>
     )
 }
 
