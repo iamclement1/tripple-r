@@ -12,8 +12,21 @@ export default function Home() {
   return (
     <React.Fragment>
 
+      <main>
+        <div className='bg-my_bg_image bg-auto md:h-[100vh] h-[50vh] md:mb-24 mb-12'>
+          <div className='bg-black/20 md:h-[100vh] h-[50vh] flex flex-col justify-center mx-auto
+          text-center'>
+            <p className='text-[#E27D60] md:text-4xl font-extrabold' >
+              Tripple R Beauty Saloon
+            </p>
+            <p className='text-white md:text-5xl  ' >
+              Beauty Delivered Beautifully
+            </p>
+          </div>
+        </div>
+      </main>
       <session>
-        <h1 className='mx-auto text-center text-3xl md:text-4xl font-bold text-[#333333] md:w-3/6 lg:w-2/6'>
+        <h1 className='mx-auto text-center text-2xl md:text-4xl font-bold text-[#333333] md:w-3/6 lg:w-2/6'>
           Personalized Beauty  <span className='text-[#E27D60]'>Treatment</span>
         </h1>
         <p className='lg:w-[56rem] mx-8 md:mx-14 lg:mx-auto my-3 text-center text-[18x] text-[#767676]'>
@@ -69,7 +82,7 @@ export default function Home() {
             <h1 className='text-[#333] text-4xl font-bold lg:w-4/6'>
               Feel Beautiful, <span className='text-[#E27D60]' >Look Great</span>
             </h1>
-            <p className='my-8 text-[#333] lg:w-4/6 text-sm'>
+            <p className='my-8 text-[#333] lg:w-5/6 text-sm'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Tripple R unisex salon
             </p>
             <button className='bg-[#E27D60] p-3 rounded-md text-white'>
