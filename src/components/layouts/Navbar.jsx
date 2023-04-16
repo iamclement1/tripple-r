@@ -15,7 +15,7 @@ const Navbar = ({ children }) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <nav className="w-full bg-white">
-                <div className=" md:space-x-24  lg:space-x-64 px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+                <div className=" md:space-x-24 lg:space-x-64 px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <Link href='/'>

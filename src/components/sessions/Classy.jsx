@@ -23,14 +23,14 @@ const Classy = () => {
                         height={300}
                     />
                 </div>
-                <div className=' my-8 lg:w-3/5 xl:w-2/5 border'>
+                <div className=' my-8 lg:w-3/5 xl:w-2/5 '>
                     <h1 className='text-[#333] text-4xl font-bold md:w-5/6'>
                         Stay <span className='text-[#E27D60]' >Classy</span>
                     </h1>
                     <p className='text-[#333] font-semibold my-2'>
                         Bespoke Beauty Treatments
                     </p>
-                    <p className='my-6 text-[#333] xl:w-4/6 text-md'>
+                    <p className='my-6 text-[#333] xl:w-full text-md'>
                         A new haircut can give you a renewed sense of energy and a boost of confidence. You might find yourself standing taller, smiling more, and feeling more outgoing than before. It is amazing how something as simple as a haircut can make such a big difference in how you feel about yourself.
                     </p>
                     <button className='bg-[#E27D60] p-3 rounded-md text-white'>
