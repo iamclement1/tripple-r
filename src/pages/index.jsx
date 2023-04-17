@@ -13,8 +13,8 @@ export default function Home() {
     <React.Fragment>
 
       <main>
-        <div className='bg-my_bg_image bg-auto md:h-[100vh] h-[50vh] md:mb-24 mb-12'>
-          <div className='bg-black/20 md:h-[100vh] h-[50vh] flex flex-col justify-center mx-auto
+        <div className='bg-my_bg_image bg-auto h-[100vh] md:mb-24 mb-12'>
+          <div className='bg-black/20 h-[100vh] flex flex-col justify-center mx-auto
           text-center'>
             <p className='text-[#E27D60] md:text-4xl font-extrabold' >
               Tripple R Beauty Saloon
