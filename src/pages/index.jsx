@@ -1,7 +1,8 @@
 import Image from 'next/image'
 import { Client, Navbar, Products, Team } from '@/components/layouts'
 import React from 'react'
-import img1 from '../assets/images/image66.png'
+// import img1 from '../assets/images/image66.png'
+import img1 from '../components/assets/images/image66.png'
 import Link from 'next/link'
 import { Classy } from '@/components/sessions'
 import { personalized } from '@/utils/Utils'
@@ -13,9 +14,22 @@ export default function Home() {
     <React.Fragment>
 
       <main>
-        <div className='bg-my_bg_image bg-auto h-[100vh] md:mb-24 mb-12'>
-          <div className='bg-black/20 h-[100vh] flex flex-col justify-center mx-auto
-          text-center'>
+        <div className="relative mb-8">
+          <div className="absolute inset-0">
+            <video
+              className="w-full h-full object-cover"
+              src="/background.mp4"
+              autoPlay
+              muted
+              loop
+            />
+            <div
+              className="absolute inset-0 bg-black opacity-50"
+              style={{ mixBlendMode: 'multiply' }}
+            />
+          </div>
+          <div className="h-screen relative max-w-7xl mx-auto my-auto px-4 sm:px-6 lg:px-8 py-20
+          flex flex-col justify-center text-center">
             <p className='text-[#E27D60] md:text-4xl font-extrabold' >
               Tripple R Beauty Saloon
             </p>
