@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import img2 from '../../assets/images/image63.png'
-import img3 from '../../assets/images/image54.png'
+import img2 from '../assets/images/image63.png'
+import img3 from '../assets/images/image54.png'
 
 const Classy = () => {
     return (
