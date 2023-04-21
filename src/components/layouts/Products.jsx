@@ -3,14 +3,6 @@ import Image from 'next/image'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
-import { Autoplay } from "swiper";
-import img1 from '../../assets/images/image73.svg'
-import img2 from '../../assets/images/image71.svg'
-import img3 from '../../assets/images/image76.svg'
-import img4 from '../../assets/images/image75.svg'
-import img5 from '../../assets/images/image77.svg'
-import img6 from '../../assets/images/image72.svg'
-import img7 from '../../assets/images/image74.svg'
 
 
 
@@ -21,133 +13,31 @@ const Products = () => {
                 Products We <span className='text-[#E27D60] '>Use</span>
             </h1>
 
-            <main className='mx-36 mt-16'>
-                <Swiper
-                    modules={[Autoplay]}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 1500,
-                        disableOnInteraction: false,
-                        stopOnLastSlide: false
-                    }}
-                    spaceBetween={10}
-                    slidesPerView={7}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}>
-                    <SwiperSlide className=''>
-                        <Image src={img1}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img2}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img3}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img4}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img5}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img6}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img7}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img1}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img2}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img3}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img4}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img5}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img6}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <Image src={img7}
-                            alt='product-logo'
-                            width={500}
-                            height={500}
-                        />
-                    </SwiperSlide>
-
-                </Swiper>
-            </main>
+            {/* <main className="mx-36 mt-12">
+                <div className="px-8 py-2 w-full">
+                    <Swiper
+                        spaceBetween={30}
+                        centeredSlides={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        navigation={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        className="mySwiper w-full"
+                    >
+                        {products && products.map((product) => (
+                            <SwiperSlide key={product.id}>
+                                <Image src={product.image} alt="Product_logo"
+                                    width={500}
+                                    height={500} />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
+            </main> */}
         </React.Fragment>
     )
 }
