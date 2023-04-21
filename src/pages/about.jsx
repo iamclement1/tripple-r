@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import img1 from '../assets/images/image55.png'
-import img2 from '../assets/images/image68.png'
-import img3 from '../assets/images/image78.png'
+import img1 from '../components/assets/images/image55.png'
+import img2 from '../components/assets/images/image68.png'
+import img3 from '../components/assets/images/image78.png'
 import { Fade } from 'react-awesome-reveal'
 import { Client, Products, Team } from '@/components/layouts'
 
