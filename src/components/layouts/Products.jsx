@@ -13,7 +13,7 @@ const Products = () => {
                 Products We <span className='text-[#E27D60] '>Use</span>
             </h1>
 
-            {/* <main className="mx-36 mt-12">
+            <main className="mx-36 mt-12">
                 <div className="px-8 py-2 w-full">
                     <Swiper
                         spaceBetween={30}
@@ -37,7 +37,7 @@ const Products = () => {
                         ))}
                     </Swiper>
                 </div>
-            </main> */}
+            </main>
         </React.Fragment>
     )
 }
