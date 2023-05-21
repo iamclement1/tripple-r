@@ -31,3 +31,9 @@ body {
     rgb(var(--background-start-rgb));
     font-family: "Inter";
 }
+
+.swiper-slide-img {
+  width: 100%;
+  height: auto;
+}
+

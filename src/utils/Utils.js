@@ -101,24 +101,31 @@ export const clients = [
 
 export const products = [
     {
+        id: 1,
         image: img10
     },
     {
+        id: 2,
         image: img11
     },
     {
+        id: 3,
         image: img12
     },
     {
+        id: 4,
         image: img13
     },
     {
+        id: 5,
         image: img14
     },
     {
+        id: 6,
         image: img15
     },
     {
+        id: 7,
         image: img16
     }
 ]
@@ -146,7 +153,7 @@ export const services = [
     },
     {
         image: img22,
-        name: "Washing and Setting"
+        name: "Pedicure"
     },
     {
         image: img23,
