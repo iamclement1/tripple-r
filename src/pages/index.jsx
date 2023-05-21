@@ -30,12 +30,12 @@ export default function Home() {
           </div>
           <div className="h-screen relative max-w-7xl mx-auto my-auto px-4 sm:px-6 lg:px-8 py-20
           flex flex-col justify-center text-center">
-            <p className='text-[#E27D60] md:text-4xl font-extrabold' >
+            {/* <p className='text-[#E27D60] md:text-4xl font-extrabold' >
               Tripple R Beauty Saloon
             </p>
             <p className='text-white md:text-5xl  ' >
               Beauty Delivered Beautifully
-            </p>
+            </p> */}
           </div>
         </div>
       </main>

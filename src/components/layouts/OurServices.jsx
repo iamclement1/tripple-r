@@ -14,7 +14,7 @@ const OurServices = () => {
                             <>
                                 <Fade direction='up' triggerOnce cascade>
                                     <div
-                                        key={index}
+                                        key={index.id}
                                         className=' items-center mb-4 rounded-lg p-4 mt-2 md:mt-4 lg:mt-4'>
                                         <Image src={service.image}
                                             alt='team photograph'
@@ -39,7 +39,7 @@ const OurServices = () => {
                             <>
                                 <Fade direction='up' triggerOnce cascade>
                                     <div
-                                        key={item}
+                                        key={item.id}
                                         className=' items-center mb-4 rounded-lg p-4 mt-2 md:mt-4 lg:mt-4'>
                                         <Image src={service.image}
                                             alt='team photograph'

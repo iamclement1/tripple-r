@@ -15,7 +15,7 @@ const Price = () => {
                 {
                     prices && prices.map((price, index) => {
                         return (
-                            <div key={index}
+                            <div key={index.id}
                                 className='flex text-start justify-between border py-6 px-6'>
                                 <p>
                                     {price.name}
