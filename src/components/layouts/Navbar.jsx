@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = ({ children }) => {
     const [open, setOpen] = useState(false);
@@ -12,16 +13,15 @@ const Navbar = ({ children }) => {
                     name="description"
                     content="Create Next JS Responsive Menu with Tailwind CSS"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.svg" />
             </Head>
             <nav className="w-full bg-white">
                 <div className=" md:space-x-24 lg:space-x-64 px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
                             <Link href='/'>
-                                <h1 className='text-[#E27D60] font-bold text-3xl md:ml-4 '>
-                                    Tripple R
-                                </h1>
+                                <Image src="/favicon.svg" alt="brand-logo"
+                                width={150} height={100} />
                             </Link>
                             <div className="md:hidden">
                                 <button

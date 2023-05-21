@@ -3,6 +3,10 @@ import Image from 'next/image'
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
+import 'swiper/swiper.min.css';
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper/core';
+
+SwiperCore.use([Autoplay, Navigation, Pagination]);
 
 
 
@@ -28,16 +32,15 @@ const Products = () => {
                         }}
                         className="mySwiper w-full"
                     >
-                        {products && products.map((product) => (
+                        {products.map((product) => (
                             <SwiperSlide key={product.id}>
-                                <Image src={product.image} alt="Product_logo"
-                                    width={500}
-                                    height={500} />
+                                <img src={product.image} alt="Product_logo" width={150} height={150} />
                             </SwiperSlide>
                         ))}
                     </Swiper>
                 </div>
             </main>
+
         </React.Fragment>
     )
 }

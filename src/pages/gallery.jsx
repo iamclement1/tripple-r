@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import img1 from '../components/assets/images/image79.png'
-import img2 from '../components/assets/images/image68.png'
+import img2 from '../components/assets/images/image1000.png'
 import img3 from '../components/assets/images/image81.png'
 import img4 from '../components/assets/images/image661.png'
 import img5 from '../components/assets/images/image831.png'
@@ -27,7 +27,7 @@ const Gallery = ({ children }) => {
                         <Image src={img1}
                             alt='productImage'
                             width={700}
-                            height={700}
+                            height={1000}
                             className='mb-4 md:mb-0 lg:mb-0'
                         />
                     </div>
