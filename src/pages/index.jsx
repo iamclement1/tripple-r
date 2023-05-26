@@ -20,7 +20,6 @@ export default function Home() {
               className="w-full h-full object-cover"
               src="/background.mp4"
               autoPlay
-              muted
               loop
             />
             <div
@@ -77,20 +76,20 @@ export default function Home() {
         </div>
       </session>
 
-      <section className='bg-[#F8E2D3] ml-4 lg:mr-96 p-6 mt-28 lg:mt-0'>
-        <div className='relative bottom-18 md:bottom-0 lg:bottom-0 lg:left-60 lg:flex'>
+      <section className='bg-[#F8E2D3] lg:mr-96 mt-28 lg:mt-0'>
+        <div className='relative bottom-18 md:bottom-0 lg:bottom-0 lg:left-44 lg:flex'>
 
-          <div className='lg:mr-64 my-8'>
+          <div className='lg:mr-44 my-8 w-4/6'>
             <h1 className='text-[#333] text-4xl font-bold'>
               Luxury <span className='text-[#E27D60]' >Redefined</span>
             </h1>
             <p className='text-black mt-4'>
               {"Bespoke Beauty Treatments"}
             </p>
-            <p className='my-8 text-[#333]  text-sm'>
+            <p className='my-8 text-[#333]/70  text-sm w-full'>
               {"Triple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Triple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
             </p>
-            <button className='bg-[#E27D60] p-3 rounded-md text-white'>
+            <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
                 Book a session
               </Link>
@@ -126,7 +125,7 @@ export default function Home() {
             <p className='my-8 text-[#333] lg:w-5/6 text-sm'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
-            <button className='bg-[#E27D60] p-3 rounded-md text-white'>
+            <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
                 Book a session
               </Link>

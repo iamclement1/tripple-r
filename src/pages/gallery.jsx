@@ -130,14 +130,14 @@ const Gallery = ({ children }) => {
             </main>
 
             <main className="flex justify-center lg:space-x-12 md:space-x-8 space-x-2 my-8">
-                <button className='lg:px-12 md:px-8 px-4 py-2 border border-[#333]/60 
+                {/* <button className='lg:px-12 md:px-8 px-4 py-2 border border-[#333]/60 
                 rounded-md text-[#333]/70 lg:text-md md:text-md text-sm font-semibold'>
                     Show more
-                </button>
-                <button className='lg:px-12 md:px-8 px-4 flex lg:space-x-5 md:space-x-5 space-x-2
+                </button> */}
+                <button className='lg:px-12 md:px-8 md:py-4 py-3 px-4 flex lg:space-x-5 md:space-x-5 space-x-2
                 items-center bg-[#E27D60]  text-white lg:text-md md:text-md text-sm rounded-md'>
                     <AiFillInstagram className='' />
-                    <p>Follow on Instagram</p>
+                    <p>Follow on Instagram to view more</p>
                 </button>
             </main>
 
