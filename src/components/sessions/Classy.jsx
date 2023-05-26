@@ -27,10 +27,10 @@ const Classy = () => {
                     <h1 className='text-[#333] text-4xl font-bold md:w-5/6'>
                         Stay <span className='text-[#E27D60]' >Classy</span>
                     </h1>
-                    <p className='text-[#333] font-semibold my-2'>
+                    <p className='text-[#333]/70 font-semibold my-2'>
                         Bespoke Beauty Treatments
                     </p>
-                    <p className='my-6 text-[#333] xl:w-full text-md'>
+                    <p className='my-6 text-[#333]/70 xl:w-full text-md'>
                         A new haircut can give you a renewed sense of energy and a boost of confidence. You might find yourself standing taller, smiling more, and feeling more outgoing than before. It is amazing how something as simple as a haircut can make such a big difference in how you feel about yourself.
                     </p>
                     <button className='bg-[#E27D60] p-3 rounded-md text-white'>
@@ -66,7 +66,7 @@ const Classy = () => {
                         />
                     </div>
                     <div className='mx-6 flex flex-col'>
-                        <p className='my-6 text-[#333]  text-sm text-center'>
+                        <p className='my-6 text-[#333]/70  text-sm text-center'>
                             A new haircut can give you a renewed sense of energy and a boost of confidence. You might find yourself standing taller, smiling more, and feeling more outgoing than before. It is amazing how something as simple as a haircut can make such a big difference in how you feel about yourself.
                         </p>
                         <button className='bg-[#E27D60] p-3 rounded-md text-white md:w-6/12 mx-auto'>

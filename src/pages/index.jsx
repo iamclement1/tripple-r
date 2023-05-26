@@ -40,13 +40,13 @@ export default function Home() {
           </div>
           <div className="h-screen relative max-w-7xl mx-auto my-auto px-4 sm:px-6 lg:px-8 py-20
           flex flex-col justify-center text-center">
-        <button
-          className="absolute top-4 right-4 bg-gray-800 text-white px-2 py-1 rounded-md"
-          onClick={toggleMute}
-        >
-          {isMuted ? 'Unmute' : 'Mute'}
-        </button>
-      </div>
+            <button
+              className="absolute top-4 right-4 bg-gray-800 text-white px-2 py-1 rounded-md"
+              onClick={toggleMute}
+            >
+              {isMuted ? 'Unmute' : 'Mute'}
+            </button>
+          </div>
         </div>
       </main>
       <session>
@@ -88,16 +88,16 @@ export default function Home() {
       </session>
 
       <section className='bg-[#F8E2D3] lg:mr-96 mt-28 lg:mt-0'>
-        <div className='relative bottom-18 md:bottom-0 lg:bottom-0 lg:left-44 lg:flex'>
+        <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:left-44 lg:flex'>
 
-          <div className='lg:mr-44 my-8 w-4/6'>
+          <div className='lg:mr-44 my-8 w-full'>
             <h1 className='text-[#333] text-4xl font-bold'>
               Luxury <span className='text-[#E27D60]' >Redefined</span>
             </h1>
             <p className='text-black mt-4'>
               {"Bespoke Beauty Treatments"}
             </p>
-            <p className='my-8 text-[#333]/70  text-sm w-full'>
+            <p className='my-8 text-[#333]/70  text-md w-full'>
               {"Triple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Triple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
             </p>
             <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
@@ -106,12 +106,14 @@ export default function Home() {
               </Link>
             </button>
           </div>
-          <Image src={img2}
-            alt='image'
-            width={600}
-            height={200}
-            className='my-14 h-80'
-          />
+          <div className=''>
+            <Image src={img2}
+              alt='image'
+              width={900}
+              height={400}
+              className='my-14 h-50 md:ml-[50px]'
+            />
+          </div>
         </div>
       </section>
 
@@ -120,20 +122,22 @@ export default function Home() {
         <Classy />
       </main>
 
-      <section className='bg-[#F2F2F2] ml-4 lg:ml-96 p-6 mt-28 lg:mt-0'>
-        <div className='relative bottom-28 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>
-          <Image src={img1}
-            alt='image'
-            width={400}
-            height={400}
-            className='my-5'
-          />
+      <section className='bg-[#F2F2F2] lg:ml-96 mt-28 lg:mt-0'>
+        <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>
+          <div className=''>
+            <Image src={img1}
+              alt='image'
+              width={900}
+              height={400}
+              className='my-14 h-80 md:w-[1200px] md:mr-[50px]'
+            />
+          </div>
 
-          <div className='lg:ml-56 my-8'>
-            <h1 className='text-[#333] text-4xl font-bold lg:w-4/6'>
+          <div className='lg:ml-80 my-8 w-full'>
+            <h1 className='text-[#333] text-4xl font-bold lg:w-5/6'>
               Feel Beautiful, <span className='text-[#E27D60]' >Look Great</span>
             </h1>
-            <p className='my-8 text-[#333] lg:w-5/6 text-sm'>
+            <p className='my-8 text-[#333]/70 text-md w-full'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
             <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
@@ -142,8 +146,10 @@ export default function Home() {
               </Link>
             </button>
           </div>
+
         </div>
       </section>
+
       <main className='my-14'>
         <Team />
       </main>
