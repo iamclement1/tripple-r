@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Client, Navbar, Products, Team } from '@/components/layouts'
 import React from 'react'
-// import img1 from '../assets/images/image66.png'
 import img1 from '../components/assets/images/image66.png'
 import Link from 'next/link'
 import { Classy } from '@/components/sessions'
@@ -77,11 +76,39 @@ export default function Home() {
         </div>
       </session>
 
+      <section className='bg-[#F8E2D3] ml-4 lg:mr-96 p-6 mt-28 lg:mt-0'>
+        <div className='relative bottom-18 md:bottom-0 lg:bottom-0 lg:left-60 lg:flex'>
+         
+
+          <div className='lg:mr-64 my-8'>
+            <h1 className='text-[#333] text-4xl font-bold'>
+              Luxury <span className='text-[#E27D60]' >Redefined</span>
+            </h1>
+            <p className='text-black mt-4'>
+              {"Bespoke Beauty Treatments"}
+            </p>
+            <p className='my-8 text-[#333]  text-sm'>
+              {"Tripple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Tripple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
+            </p>
+            <button className='bg-[#E27D60] p-3 rounded-md text-white'>
+              <Link href={"https://wa.me/07047460396"}>
+                Book a session
+              </Link>
+            </button>
+          </div>
+          <Image src={img1}
+            alt='image'
+            width={400}
+            height={200}
+            className='my-14 h-80'
+          />
+        </div>
+      </section>
+
 
       <main className='my-14'>
         <Classy />
       </main>
-
 
       <section className='bg-[#F2F2F2] ml-4 lg:ml-96 p-6 mt-28 lg:mt-0'>
         <div className='relative bottom-28 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>

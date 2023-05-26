@@ -37,44 +37,44 @@ export const teamCard = [
     {
         id: 1,
         image: img1,
-        name: "Ayoola Ibukunoluwa",
-        role: "Hair specialist",
-        description: "Ayoola is a professional who specializes in styling and cutting hair. She provide a range of services to Tripple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
+        name: "Babatunde Damilola",
+        role: "Barber",
+        description: "Damilola is a professional who specializes in styling and cutting hair. He provides a range of services to Tripple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     },
     {
         id: 2,
         image: img2,
         name: "Sekinat Salaudeen",
-        role: "Nail specialist",
-        description: "Sekinat is a professional who specializes in the care and beautification of nails. She provide a range of services, including manicures, pedicures, nail art, and nail extensions. "
+        role: "Growth Manager",
+        description: "Sekinat plays a crucial role in overseeing the efficient and effective operation of Triple R salon, managing staff, providing excellent customer service, and driving the salon's success through strategic planning and business management."
     },
     {
         id: 3,
         image: img3,
-        name: "Mimmi Jackson",
-        role: "Pedicurist",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliquip ex ea commodo consequat. Duis aute irure "
+        name: "Aliyu Abdulgafar",
+        role: "Barber",
+        description: "Abdulgafar is a professional who specializes in styling and cutting hair. He provide a range of services to Triple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     },
     {
         id: 4,
         image: img4,
-        name: "Sekinat Salaudeen",
-        role: "Nail specialist",
-        description: "Sekinat is a professional who specializes in the care and beautification of nails. She provide a range of services, including manicures, pedicures, nail art, and nail extensions. "
+        name: "Mohammed Tiamiyu",
+        role: "Operation's Manager",
+        description: "Mohammed oversees the day-to-day operations of the salon. This includes managing the salon's schedule, ensuring proper staffing levels, and coordinating appointments and services."
     },
     {
         id: 5,
         image: img5,
-        name: "Mimmi Jackson",
-        role: "Pedicurist",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliquip ex ea commodo consequat. Duis aute irure "
+        name: "Badmus Afusat",
+        role: "Nail Technician",
+        description: "Afusat provides nail care services for clients including nail treatments, curticle care, nail health assessment, cleaning up and maintenance."
     },
     {
         id: 6,
         image: img6,
-        name: "Ayoola Ibukunoluwa",
+        name: "Olawale Sodiq",
         role: "Hair specialist",
-        description: "Ayoola is a professional who specializes in styling and cutting hair. She provide a range of services to Tripple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
+        description: "Sodiq is a professional who specializes in styling and cutting hair. He provide a range of services to Triple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     }
 ]
 
