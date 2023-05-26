@@ -18,7 +18,7 @@ const Gallery = ({ children }) => {
         <React.Fragment>
             <h1 className=' bg-[#F2F2F2] text-center ml-4 lg:ml-36 p-6 
             text-[#E27D60] font-semibold text-2xl'>
-                Tripple R Gallery
+                Triple R Gallery
             </h1>
 
             <main className=' md:flex lg:flex mx-6 md:mx-6 lg:mx-36 md:space-x-8 lg:space-x-12 mt-8'>

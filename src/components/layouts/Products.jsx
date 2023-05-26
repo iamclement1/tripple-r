@@ -13,12 +13,12 @@ SwiperCore.use([Autoplay, Navigation, Pagination]);
 const Products = () => {
     return (
         <React.Fragment>
-            <h1 className='md:block hidden mx-4 md:mx-0 text-center text-2xl lg:text-4xl font-bold text-[#333333] '>
+            <h1 className='block mx-4 md:mx-0 text-center text-2xl lg:text-4xl font-bold text-[#333333] '>
                 Products We <span className='text-[#E27D60] '>Use</span>
             </h1>
 
-            <main className="mx-36 mt-12">
-                <div className="px-8 py-2 w-full">
+            <main className="md:mx-36 mt-12">
+                <div className="px-8 py-2 w-full ">
                     <Swiper
                     slidesPerView={5}
                         spaceBetween={30}

@@ -18,7 +18,7 @@ const Footer = () => {
                     <h1 className='text-2xl font-medium '>
                         Get in Touch
                     </h1>
-                    <p className='lg:w-4/6 text-gray-200 text-sm my-3'>
+                    <p className='lg:w-4/6 text-gray-500 text-sm my-3'>
                         Get exclusive news about our available packages by subscribing
                         to receive our monthly newsletter.
                     </p>
@@ -48,7 +48,7 @@ const Footer = () => {
                             <h1 className='font-semibold text-xl'>
                                 Quick Links
                             </h1>
-                            <ul className='text-sm my-3 space-y-2'>
+                            <ul className='text-sm my-3 space-y-2 text-gray-500'>
                                 <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
@@ -86,7 +86,7 @@ const Footer = () => {
                             <h1 className='font-semibold text-xl'>
                                 Useful
                             </h1>
-                            <ul className='text-sm my-3 space-y-2'>
+                            <ul className='text-sm my-3 space-y-2 text-gray-500'>
                                 <li className="hover:underline hover:duration-300 
                                 hover:ease-in-out hover:decoration-[#E27D60]
                                 hover:underline-offset-8">
@@ -124,17 +124,17 @@ const Footer = () => {
                         <h1 className='font-semibold text-xl mb-3 items-center'>
                             Contact Us
                         </h1>
-                        <div className='flex space-x-2 '>
+                        <div className='flex space-x-2  text-gray-500'>
                             <GoLocation />
                             <h2 className='text-sm'>
                                 No 22, opposite Total filling station, Offa Kwara State
                             </h2>
                         </div>
-                        <div className="flex items-center space-x-2 my-3">
+                        <div className="flex items-center space-x-2 my-3 text-gray-500">
                             <BsTelephoneFill />
                             <a href="tel:07047460396">07047460396</a>
                         </div>
-                        <div className="flex items-center space-x-2 my-3">
+                        <div className="flex items-center space-x-2 my-3 text-gray-500">
                             <MdOutlineMailOutline />
                             <a href="mailto:TrippleRunisexsaloon@yahoo.com">
                                 TrippleRunisexsaloon@yahoo.com

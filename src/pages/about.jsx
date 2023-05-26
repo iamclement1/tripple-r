@@ -15,7 +15,7 @@ const About = () => {
                     About Us
                 </h1>
                 <p className='lg:w-[49rem] md:mx-12 mx-3 lg:mx-auto my-3 text-center text-[18x] text-[#767676] '>
-                    At Tripple R unisex salon, we are committed to going above and beyond at every turn. For us, providing outstanding service is only one part of providing an extraordinary experience. With us having an
+                    At Triple R unisex salon, we are committed to going above and beyond at every turn. For us, providing outstanding service is only one part of providing an extraordinary experience. With us having an
                     amazing experience is guaranteed.
                 </p>
             </main>

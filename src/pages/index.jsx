@@ -31,7 +31,7 @@ export default function Home() {
           <div className="h-screen relative max-w-7xl mx-auto my-auto px-4 sm:px-6 lg:px-8 py-20
           flex flex-col justify-center text-center">
             {/* <p className='text-[#E27D60] md:text-4xl font-extrabold' >
-              Tripple R Beauty Saloon
+              Triple R Beauty Saloon
             </p>
             <p className='text-white md:text-5xl  ' >
               Beauty Delivered Beautifully
@@ -44,7 +44,7 @@ export default function Home() {
           Personalized Beauty  <span className='text-[#E27D60]'>Treatment</span>
         </h1>
         <p className='lg:w-[56rem] mx-8 md:mx-14 lg:mx-auto my-3 text-center text-[18x] text-[#767676]'>
-          You have full control at Tripple R, unisex salon. In addition to choosing your own beauty specialist, you can select from a range of services, such as eyebrow threading, waxing, nails, nail extensions, pedicures, manicures, eyelash extensions, facials, massages, and eyebrow and lash tinting. Then you can modify your treatment to match your preferred appearance and preferences.
+          You have full control at Triple R, unisex salon. In addition to choosing your own beauty specialist, you can select from a range of services, such as eyebrow threading, waxing, nails, nail extensions, pedicures, manicures, eyelash extensions, facials, massages, and eyebrow and lash tinting. Then you can modify your treatment to match your preferred appearance and preferences.
         </p>
 
         <div className=' md:mx-24 xl:mx-36 grid grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-3
@@ -88,7 +88,7 @@ export default function Home() {
               {"Bespoke Beauty Treatments"}
             </p>
             <p className='my-8 text-[#333]  text-sm'>
-              {"Tripple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Tripple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
+              {"Triple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Triple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
             </p>
             <button className='bg-[#E27D60] p-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
@@ -124,7 +124,7 @@ export default function Home() {
               Feel Beautiful, <span className='text-[#E27D60]' >Look Great</span>
             </h1>
             <p className='my-8 text-[#333] lg:w-5/6 text-sm'>
-              Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Tripple R unisex salon
+              Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
             <button className='bg-[#E27D60] p-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
