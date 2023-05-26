@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Client, Navbar, Products, Team } from '@/components/layouts'
 import React from 'react'
 import img1 from '../components/assets/images/image66.png'
+import img2 from '../components/assets/images/image48.png';
 import Link from 'next/link'
 import { Classy } from '@/components/sessions'
 import { personalized } from '@/utils/Utils'
@@ -78,7 +79,6 @@ export default function Home() {
 
       <section className='bg-[#F8E2D3] ml-4 lg:mr-96 p-6 mt-28 lg:mt-0'>
         <div className='relative bottom-18 md:bottom-0 lg:bottom-0 lg:left-60 lg:flex'>
-         
 
           <div className='lg:mr-64 my-8'>
             <h1 className='text-[#333] text-4xl font-bold'>
@@ -96,7 +96,7 @@ export default function Home() {
               </Link>
             </button>
           </div>
-          <Image src={img1}
+          <Image src={img2}
             alt='image'
             width={400}
             height={200}
