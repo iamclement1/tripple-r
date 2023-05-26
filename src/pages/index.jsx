@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Client, Navbar, Products, Team } from '@/components/layouts'
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import img1 from '../components/assets/images/image66.png'
 import img2 from '../components/assets/images/image48.png';
 import Link from 'next/link'
@@ -10,6 +10,15 @@ import { Fade } from 'react-awesome-reveal'
 
 
 export default function Home() {
+
+  const videoRef = useRef(null);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const toggleMute = () => {
+    const video = videoRef.current;
+    video.muted = !video.muted;
+    setIsMuted(video.muted);
+  };
   return (
     <React.Fragment>
 
@@ -21,6 +30,8 @@ export default function Home() {
               src="/background.mp4"
               autoPlay
               loop
+              ref={videoRef}
+              muted={isMuted}
             />
             <div
               className="absolute inset-0 bg-black opacity-50"
@@ -29,13 +40,13 @@ export default function Home() {
           </div>
           <div className="h-screen relative max-w-7xl mx-auto my-auto px-4 sm:px-6 lg:px-8 py-20
           flex flex-col justify-center text-center">
-            {/* <p className='text-[#E27D60] md:text-4xl font-extrabold' >
-              Triple R Beauty Saloon
-            </p>
-            <p className='text-white md:text-5xl  ' >
-              Beauty Delivered Beautifully
-            </p> */}
-          </div>
+        <button
+          className="absolute top-4 right-4 bg-gray-800 text-white px-2 py-1 rounded-md"
+          onClick={toggleMute}
+        >
+          {isMuted ? 'Unmute' : 'Mute'}
+        </button>
+      </div>
         </div>
       </main>
       <session>
@@ -97,7 +108,7 @@ export default function Home() {
           </div>
           <Image src={img2}
             alt='image'
-            width={400}
+            width={600}
             height={200}
             className='my-14 h-80'
           />
