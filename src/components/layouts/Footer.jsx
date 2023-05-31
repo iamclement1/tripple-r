@@ -8,6 +8,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <footer className='w-full bg-black'>
             <div className=" lg:flex lg:text-start items-center lg:space-x-38 lg:my-4 p-8 md:p-2 lg:p-2
@@ -136,8 +137,8 @@ const Footer = () => {
                         </div>
                         <div className="flex items-center space-x-2 my-3 text-gray-500">
                             <MdOutlineMailOutline />
-                            <a href="mailto:TrippleRunisexsaloon@yahoo.com">
-                                TrippleRunisexsaloon@yahoo.com
+                            <a href="mailto:Triplerunisexsalonoffa@gmail.com">
+                                Triplerunisexsalonoffa@gmail.com
                             </a>
                         </div>
                     </div>
@@ -150,7 +151,7 @@ const Footer = () => {
             <div className='pb-8 md:flex lg:flex justify-between mx-8 lg:mx-36 '>
                 <div></div>
                 <p className='text-white '>
-                    Copyright - Tripple R unisex salon &copy; 2023
+                    Copyright - Tripple R unisex salon &copy; {currentYear}
                 </p>
                 <div className='text-white flex space-x-5 text-xl mt-4 lg:mt-0'>
                     <AiFillInstagram className='cursor-pointer' />
