@@ -13,7 +13,7 @@ const Navbar = ({ children }) => {
                     name="description"
                     content="Create Next JS Responsive Menu with Tailwind CSS"
                 />
-                <link rel="icon" href="/favicon.svg" />
+                <link rel="icon" href="/favicon.jpg" />
             </Head>
             <nav className="w-full bg-white">
                 <div className=" md:space-x-24 lg:space-x-64 px-4 py-3 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
