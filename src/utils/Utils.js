@@ -88,14 +88,14 @@ export const clients = [
     {
         statement: "The 1st experience I had at Tripple R was super awesome, felt really pampered after my session... I must recommend",
         image: img8,
-        name: "Tunde Agbekoya",
-        address: "Offa, Nigeria"
+        name: "John Favor",
+        address: "Geri-alimi, Ilorin, Nigeria"
     },
     {
         statement: "Great customer service, their staffs are so calm and welcoming",
         image: img9,
         name: "Olayomi Rebecca",
-        address: "Offa, Nigeria"
+        address: "Tanke, Ilorin, Nigeria"
     }
 ]
 
