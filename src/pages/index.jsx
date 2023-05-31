@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Client, Navbar, Products, Team } from '@/components/layouts'
+import { Client, Products, Team } from '@/components/layouts'
 import React, { useRef, useState } from 'react'
 import img1 from '../components/assets/images/image66.png'
 import img2 from '../components/assets/images/image48.png';
@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <React.Fragment>
 
-      <main>
-        <div className="relative mb-8">
+      <main className='lg:pb-12'>
+        <div className="relative mb-8 ">
           <div className="absolute inset-0">
             <video
               className="w-full h-full object-cover"
@@ -58,7 +58,7 @@ export default function Home() {
         </p>
 
         <div className=' md:mx-24 xl:mx-36 grid grid-cols-1 md:grid md:grid-cols-1 lg:grid lg:grid-cols-3
-                gap-2 md:gap-4 lg:gap-4'>
+                gap-2 md:gap-4 lg:gap-4 mb-12'>
           {
             personalized && personalized.map((index, id) => {
               return (
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </session>
 
-      <section className='bg-[#F8E2D3] lg:mr-96 mt-28 lg:mt-0'>
+      <section className='bg-[#F8E2D3] lg:mr-96 mt-28 lg:mt-12'>
         <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:left-44 lg:flex'>
 
           <div className='lg:mr-44 my-8 w-full'>
@@ -102,7 +102,7 @@ export default function Home() {
             </p>
             <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
-                Book a session
+                Contact Us
               </Link>
             </button>
           </div>
@@ -122,27 +122,27 @@ export default function Home() {
         <Classy />
       </main>
 
-      <section className='bg-[#F2F2F2] lg:ml-96 mt-28 lg:mt-0'>
+      <section className='bg-[#F2F2F2] lg:ml-96 mt-28 lg:mt-0 lg:mb-12'>
         <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>
           <div className=''>
-            <Image src={img1}
+          <Image src={img2}
               alt='image'
-              width={900}
+              width={2000}
               height={400}
-              className='my-14 h-80 md:w-[1200px] md:mr-[50px]'
+              className='my-14 md:mr-[3px]'
             />
           </div>
 
-          <div className='lg:ml-80 my-8 w-full'>
+          <div className='lg:ml-80 my-8 '>
             <h1 className='text-[#333] text-4xl font-bold lg:w-5/6'>
               Feel Beautiful, <span className='text-[#E27D60]' >Look Great</span>
             </h1>
-            <p className='my-8 text-[#333]/70 text-md w-full'>
+            <p className='my-8 text-[#333]/70 text-md'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
             <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
               <Link href={"https://wa.me/07047460396"}>
-                Book a session
+                Contact Us
               </Link>
             </button>
           </div>

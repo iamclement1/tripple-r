@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal'
 const Team = () => {
     return (
         <React.Fragment>
-            <h1 className='text-center text-3xl md:text-4xl font-bold text-[#333333] '>
+            <h1 className='text-center text-3xl md:text-4xl font-bold text-[#333333] mt-12 '>
                 Meet our <span className='text-[#E27D60]'>Team</span>
             </h1>
             <p className='lg:w-[54rem] mx-8 md:mx-14 lg:mx-auto my-3 text-center text-[18x] text-[#767676]'>
