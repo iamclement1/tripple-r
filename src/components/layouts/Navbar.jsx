@@ -8,10 +8,10 @@ const Navbar = ({ children }) => {
     return (
         <div>
             <Head>
-                <title>Tripple R</title>
+                <title>Triple R</title>
                 <meta
                     name="description"
-                    content="Create Next JS Responsive Menu with Tailwind CSS"
+                    content="At Triple R unisex salon, we are committed to going above and beyond at every turn."
                 />
                 <link rel="icon" href="/favicon.jpg" />
             </Head>
