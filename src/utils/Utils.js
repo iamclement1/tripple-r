@@ -39,7 +39,7 @@ export const teamCard = [
         image: img1,
         name: "Babatunde Damilola",
         role: "Barber",
-        description: "Damilola is a professional who specializes in styling and cutting hair. He provides a range of services to Tripple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
+        description: "Damilola is a professional who specializes in styling and cutting hair. He provides a range of services to Triple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     },
     {
         id: 2,
@@ -80,13 +80,13 @@ export const teamCard = [
 
 export const clients = [
     {
-        statement: "Tripple R is an amazing place to be, great customer care service, and the best price you can find anywhere.",
+        statement: "Triple R is an amazing place to be, great customer care service, and the best price you can find anywhere.",
         image: img7,
         name: "Tunde Agbekoya",
         address: "Offa, Nigeria"
     },
     {
-        statement: "The 1st experience I had at Tripple R was super awesome, felt really pampered after my session... I must recommend",
+        statement: "The 1st experience I had at Triple R was super awesome, felt really pampered after my session... I must recommend",
         image: img8,
         name: "John Favor",
         address: "Geri-alimi, Ilorin, Nigeria"

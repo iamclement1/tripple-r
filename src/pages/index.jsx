@@ -125,7 +125,7 @@ export default function Home() {
       <section className='bg-[#F2F2F2] lg:ml-96 mt-28 lg:mt-0 lg:mb-12'>
         <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>
           <div className=''>
-          <Image src={img2}
+          <Image src={img1}
               alt='image'
               width={2000}
               height={400}

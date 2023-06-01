@@ -10,7 +10,7 @@ const Team = () => {
                 Meet our <span className='text-[#E27D60]'>Team</span>
             </h1>
             <p className='lg:w-[54rem] mx-8 md:mx-14 lg:mx-auto my-3 text-center text-[18x] text-[#767676]'>
-                At Tripple R, we think beauty should be presented in a beautiful way. As a result, we give our clients feelings just as much consideration as the treatments we offer. All of our team members are committed to providing each and every client they serve with the entire Tripple R experience because they recognize the value of Tripple R’s people-focused approach to beauty.
+                {"At Triple R, we think beauty should be presented in a beautiful way. As a result, we give our clients feelings just as much consideration as the treatments we offer. All of our team members are committed to providing each and every client they serve with the entire Triple R experience because they recognize the value of Triple R’s people-focused approach to beauty."}
             </p>
 
             <section>
