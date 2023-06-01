@@ -40,12 +40,12 @@ const Footer = () => {
                 </section>
                 {/* end subscribe to our newletter */}
 
-                <section className='lg:flex md:flex lg:space-x-8 md:space-x-4 my-6 lg:my-0 '>
+                <section className='md:grid grid-cols-2 my-6 lg:my-0'>
 
-                    <div className='flex space-x-12'>
+                    <div className='flex space-x-3 '>
 
                         {/* beginning of quick links */}
-                        <div>
+                        <div className=' w-full'>
                             <h1 className='font-semibold text-xl'>
                                 Quick Links
                             </h1>
@@ -83,7 +83,7 @@ const Footer = () => {
                         {/* end of the quick links */}
 
                         {/* begging of useful link */}
-                        <div>
+                        <div className='w-full'>
                             <h1 className='font-semibold text-xl'>
                                 Useful
                             </h1>
@@ -123,13 +123,20 @@ const Footer = () => {
 
                     <div>
                         <h1 className='font-semibold text-xl mb-3 items-center'>
-                            Contact Us
+                            Where to find us
                         </h1>
                         <div className='flex space-x-2  text-gray-500'>
-                            <GoLocation />
-                            <h2 className='text-sm'>
-                                No 22, opposite Total filling station, Offa Kwara State
-                            </h2>
+                            <GoLocation className='' />
+                            <div>
+                                <h2 className='text-sm mb-3'>
+                                    Akande complex before blue mist water Agbo Oba
+                                </h2>
+                                <h2 className='text-sm mb-3'>
+                                VIP Garden estate, Opp. P&T bustop (boys town) ipaja lagos                                </h2>
+                                <h2 className='text-sm'>
+                                Muhammadu Jamiu shopping complex, opposite total filling station, Olofa way, Offa                                </h2>
+
+                            </div>
                         </div>
                         <div className="flex items-center space-x-2 my-3 text-gray-500">
                             <BsTelephoneFill />
@@ -154,7 +161,9 @@ const Footer = () => {
                     Copyright - Tripple R unisex salon &copy; {currentYear}
                 </p>
                 <div className='text-white flex space-x-5 text-xl mt-4 lg:mt-0'>
+                    <a href="https://www.instagram.com/triple_r_unisexsalon/" target='blank'>
                     <AiFillInstagram className='cursor-pointer' />
+                    </a>
                     <FaTwitterSquare className='cursor-pointer' />
                     <FaFacebookSquare className='cursor-pointer' />
                 </div>
