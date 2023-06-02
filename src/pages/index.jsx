@@ -73,7 +73,7 @@ export default function Home() {
                       <p className='my-3 text-[12px] lg:text-[12px] xl:text-[18px] text-center text-gray-500'>
                         {index.description}
                       </p>
-                      <a href="https://wa.me/07047460396">
+                      <a href="https://wa.me/+2347047460396?text=Hello,%20my%20name%20is " target='_blank'>
                         <button className='bg-[#E27D60] p-3 rounded-md text-white'>
                           {index.btn}
                         </button>
@@ -100,7 +100,7 @@ export default function Home() {
             <p className='my-8 text-[#333]/70  text-md w-full'>
               {"Triple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Triple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
             </p>
-            <a href="https://wa.me/07047460396">
+            <a href="https://wa.me/+2347047460396?text=Hello,%20my%20name%20is " target='_blank'>
               <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
                 Contact Us
               </button>
@@ -140,7 +140,7 @@ export default function Home() {
             <p className='my-8 text-[#333]/70 text-md'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
-            <a href="https://wa.me/07047460396">
+            <a href="https://wa.me/+2347047460396?text=Hello,%20my%20name%20is " target='_blank'>
               <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
                 Contact Us
               </button>
