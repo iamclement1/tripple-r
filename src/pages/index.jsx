@@ -73,11 +73,11 @@ export default function Home() {
                       <p className='my-3 text-[12px] lg:text-[12px] xl:text-[18px] text-center text-gray-500'>
                         {index.description}
                       </p>
-                      <button className='bg-[#E27D60] p-3 rounded-md text-white'>
-                        <Link href={"https://wa.me/07047460396"}>
+                      <a href="https://wa.me/07047460396">
+                        <button className='bg-[#E27D60] p-3 rounded-md text-white'>
                           {index.btn}
-                        </Link>
-                      </button>
+                        </button>
+                      </a>
                     </div>
                   </Fade>
                 </>
@@ -100,11 +100,11 @@ export default function Home() {
             <p className='my-8 text-[#333]/70  text-md w-full'>
               {"Triple R is a full-service beauty salon that exudes quality and delivers luxury. Our focus is on ensuring your Triple R experience is second to none – leaving you feeling fully refreshed and completely satisfied with your visit to our contemporary and comfortable saloon conveniently situated in the heart of Offa Kwara State. For more on how we deliver our service, view our About Us page."}
             </p>
-            <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
-              <Link href={"https://wa.me/07047460396"}>
+            <a href="https://wa.me/07047460396">
+              <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
                 Contact Us
-              </Link>
-            </button>
+              </button>
+            </a>
           </div>
           <div className=''>
             <Image src={img2}
@@ -125,7 +125,7 @@ export default function Home() {
       <section className='bg-[#F2F2F2] lg:ml-96 mt-28 lg:mt-0 lg:mb-12'>
         <div className='relative md:p-3 p-6 bottom-18 md:bottom-0 lg:bottom-0 lg:right-60 lg:flex'>
           <div className=''>
-          <Image src={img1}
+            <Image src={img1}
               alt='image'
               width={2000}
               height={400}
@@ -140,11 +140,11 @@ export default function Home() {
             <p className='my-8 text-[#333]/70 text-md'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
-            <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
-              <Link href={"https://wa.me/07047460396"}>
+            <a href="https://wa.me/07047460396">
+              <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
                 Contact Us
-              </Link>
-            </button>
+              </button>
+            </a>
           </div>
 
         </div>

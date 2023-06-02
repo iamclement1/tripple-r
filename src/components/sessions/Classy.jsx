@@ -33,11 +33,11 @@ const Classy = () => {
                     <p className='my-6 text-[#333]/70 xl:w-full text-md'>
                         A new haircut can give you a renewed sense of energy and a boost of confidence. You might find yourself standing taller, smiling more, and feeling more outgoing than before. It is amazing how something as simple as a haircut can make such a big difference in how you feel about yourself.
                     </p>
-                    <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
-                        <Link href={"https://wa.me/07047460396"}>
+                    <a href="https://wa.me/07047460396">
+                        <button className='bg-[#E27D60] px-8 py-3 rounded-md text-white'>
                             Contact Us
-                        </Link>
-                    </button>
+                        </button>
+                    </a>
                 </div>
             </section>
 
@@ -69,11 +69,11 @@ const Classy = () => {
                         <p className='my-6 text-[#333]/70  text-sm text-center'>
                             A new haircut can give you a renewed sense of energy and a boost of confidence. You might find yourself standing taller, smiling more, and feeling more outgoing than before. It is amazing how something as simple as a haircut can make such a big difference in how you feel about yourself.
                         </p>
-                        <button className='bg-[#E27D60] p-3 rounded-md text-white md:w-6/12 mx-auto'>
-                            <Link href={"https://wa.me/07047460396"}>
+                        <a href="https://wa.me/07047460396">
+                            <button className='bg-[#E27D60] p-3 rounded-md text-white md:w-6/12 mx-auto'>
                                 Book a session
-                            </Link>
-                        </button>
+                            </button>
+                        </a>
                     </div>
 
                 </main>
