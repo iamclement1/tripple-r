@@ -11,7 +11,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <footer className='w-full bg-black'>
-            <div className=" grid lg:grid-cols-2 md:grid-cols-1 p-12 mx-5">
+            <div className=" grid lg:grid-cols-2 md:grid-cols-1 md:p-12 p-4 md:mx-5 mx-2">
 
                 {/* beginning subscribe to our newletter */}
                 <section className=''>
