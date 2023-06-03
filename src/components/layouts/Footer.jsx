@@ -11,11 +11,10 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <footer className='w-full bg-black'>
-            <div className=" lg:flex lg:text-start items-center lg:space-x-38 lg:my-4 p-8 md:p-2 lg:p-2
-            md:mx-8 lg:mx-24 md:py-8 lg:py-12 text-white">
+            <div className=" grid lg:grid-cols-2 md:grid-cols-1 p-12 mx-5">
 
                 {/* beginning subscribe to our newletter */}
-                <section>
+                <section className=''>
                     <h1 className='text-2xl font-medium '>
                         Get in Touch
                     </h1>
