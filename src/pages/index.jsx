@@ -137,7 +137,7 @@ export default function Home() {
             <h1 className='text-[#333] text-4xl font-bold lg:w-5/6'>
               Feel Beautiful, <span className='text-[#E27D60]' >Look Great</span>
             </h1>
-            <p className='my-8 text-[#333]/70 text-md'>
+            <p className='my-8 text-[#333]/70 text-m'>
               Braids are more than just a hairstyle, they are a form of art. Each braid can be customized to fit your unique personality and style, from simple and elegant to bold and intricate. Come and get the best experience at Triple R unisex salon
             </p>
             <a href="https://wa.me/+2347047460396?text=Hello,%20my%20name%20is " target='_blank'>

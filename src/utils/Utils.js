@@ -38,7 +38,7 @@ export const teamCard = [
         id: 1,
         image: img1,
         name: "Babatunde Damilola",
-        role: "Barber",
+        role: "Hair Technician",
         description: "Damilola is a professional who specializes in styling and cutting hair. He provides a range of services to Triple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     },
     {
@@ -52,7 +52,7 @@ export const teamCard = [
         id: 3,
         image: img3,
         name: "Aliyu Abdulgafar",
-        role: "Barber",
+        role: "Hair Technician",
         description: "Abdulgafar is a professional who specializes in styling and cutting hair. He provide a range of services to Triple R’s client, including haircuts, hair coloring, chemical treatments, hair extensions, and hair styling."
     },
     {
